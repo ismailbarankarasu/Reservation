@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "Reservation.Review.Controllers.UserReviewsController",
+    "Method": "GetAllUserReview",
+    "RelativePath": "api/UserReviews",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Reservation.Review.Controllers.UserReviewsController",
+    "Method": "CreateUserReview",
+    "RelativePath": "api/UserReviews",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createUserViewDto",
+        "Type": "Reservation.Review.Dtos.CreateUserViewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Reservation.Review.Controllers.UserReviewsController",
+    "Method": "UpdateUserReview",
+    "RelativePath": "api/UserReviews",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateUserViewDto",
+        "Type": "Reservation.Review.Dtos.UpdateUserViewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Reservation.Review.Controllers.UserReviewsController",
+    "Method": "DeleteUserReview",
+    "RelativePath": "api/UserReviews",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Reservation.Review.Controllers.UserReviewsController",
+    "Method": "GetUserRewiew",
+    "RelativePath": "api/UserReviews/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Reservation.Review.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Reservation.Review.WeatherForecast, Reservation.Review, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
