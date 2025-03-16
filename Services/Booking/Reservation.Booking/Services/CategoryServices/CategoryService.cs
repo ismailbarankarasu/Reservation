@@ -19,7 +19,7 @@ namespace Reservation.Booking.Services.CategoryServices
             _categoryCollection = database.GetCollection<Category>(_databaseSetting.CategoryCollectionName);
             _mapper = mapper;
         }
-
+        
         public async Task CreateCategoryAsync(CreateCategoryDto createCategoryDto)
         {
             var value = _mapper.Map<Category>(createCategoryDto);
