@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "OdrSzltKczIy0n0lSAyRtFq1KnbKUhPtHBYKe0SOhyo=",
+  "Source": "Reservation.Booking",
+  "BasePath": "_content/Reservation.Booking",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
