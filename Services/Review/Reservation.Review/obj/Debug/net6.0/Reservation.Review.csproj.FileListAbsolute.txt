@@ -52,3 +52,4 @@ C:\Users\ismai\OneDrive\Masaüstü\my\Reservation\Services\Review\Reservation.Re
 C:\Users\ismai\OneDrive\Masaüstü\my\Reservation\Services\Review\Reservation.Review\obj\Debug\net6.0\Reservation.Review.genruntimeconfig.cache
 C:\Users\ismai\OneDrive\Masaüstü\my\Reservation\Services\Review\Reservation.Review\obj\Debug\net6.0\ref\Reservation.Review.dll
 C:\Users\ismai\OneDrive\Masaüstü\my\Reservation\Services\Review\Reservation.Review\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\ismai\OneDrive\Masaüstü\my\Reservation\Services\Review\Reservation.Review\obj\Debug\net6.0\Reservation.Review.sourcelink.json

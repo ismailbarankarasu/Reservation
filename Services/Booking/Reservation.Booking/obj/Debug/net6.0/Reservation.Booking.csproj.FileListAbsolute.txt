@@ -41,3 +41,4 @@ C:\Users\ismai\OneDrive\Masaüstü\my\Reservation\Services\Booking\Reservation.B
 C:\Users\ismai\OneDrive\Masaüstü\my\Reservation\Services\Booking\Reservation.Booking\obj\Debug\net6.0\Reservation.Booking.pdb
 C:\Users\ismai\OneDrive\Masaüstü\my\Reservation\Services\Booking\Reservation.Booking\obj\Debug\net6.0\Reservation.Booking.genruntimeconfig.cache
 C:\Users\ismai\OneDrive\Masaüstü\my\Reservation\Services\Booking\Reservation.Booking\obj\Debug\net6.0\ref\Reservation.Booking.dll
+C:\Users\ismai\OneDrive\Masaüstü\my\Reservation\Services\Booking\Reservation.Booking\obj\Debug\net6.0\Reservation.Booking.sourcelink.json

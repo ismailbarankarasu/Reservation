@@ -140,3 +140,4 @@ C:\Users\ismai\OneDrive\Masaüstü\my\Reservation\IdentityServer\obj\Debug\netco
 C:\Users\ismai\OneDrive\Masaüstü\my\Reservation\IdentityServer\obj\Debug\netcoreapp3.1\IdentityServer.dll
 C:\Users\ismai\OneDrive\Masaüstü\my\Reservation\IdentityServer\obj\Debug\netcoreapp3.1\IdentityServer.pdb
 C:\Users\ismai\OneDrive\Masaüstü\my\Reservation\IdentityServer\obj\Debug\netcoreapp3.1\IdentityServer.genruntimeconfig.cache
+C:\Users\ismai\OneDrive\Masaüstü\my\Reservation\IdentityServer\obj\Debug\netcoreapp3.1\IdentityServer.sourcelink.json
