@@ -20,6 +20,7 @@ namespace IdentityServer
             new ApiResource("ResourcePayment"){Scopes = {"PaymentFullPermission"}},
             new ApiResource("ResourceBasket"){Scopes = {"BasketFullPermission"}},
             new ApiResource("ResourceMessage"){Scopes = {"MessageFullPermission"}},
+            new ApiResource("ResourceHotel"){Scopes = {"HotelFullPermission"}},
             new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
         };
         public static IEnumerable<IdentityResource> IdentityResources => new IdentityResource[]
@@ -37,6 +38,7 @@ namespace IdentityServer
             new ApiScope("PaymentFullPermission", "Full Authority For Payment Operations"),
             new ApiScope("BasketFullPermission", "Full Authority For Basket Operations"),
             new ApiScope("MessageFullPermission", "Full Authority For Message Operations"),
+            new ApiScope("HotelFullPermission", "Full Authority For Hotel Operations"),
             new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
         };
         public static IEnumerable<Client> Clients => new Client[]
@@ -48,7 +50,7 @@ namespace IdentityServer
                 AllowedGrantTypes = GrantTypes.ClientCredentials,
                 ClientSecrets = {new Secret("reservationsecret".Sha256())},
                 AccessTokenLifetime = 600,
-                AllowedScopes = { "BookingReadPermission" },
+                AllowedScopes = { "BookingReadPermission", "HotelFullPermission" },
                 AllowAccessTokensViaBrowser = true
             },
             new Client
