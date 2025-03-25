@@ -11,8 +11,8 @@ using Reservation.Hotels.Context;
 namespace Reservation.Hotels.Migrations
 {
     [DbContext(typeof(HotelContext))]
-    [Migration("20250321200855_database-created")]
-    partial class databasecreated
+    [Migration("20250325173931_mig1")]
+    partial class mig1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
