@@ -7,7 +7,7 @@ namespace Reservation.Hotels.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=1440,localhost;initial catalog=HotelReservationDb;user=sa;password=123456aA*;");
+            optionsBuilder.UseSqlServer("server=localhost,1433;initial catalog=HotelReservationDb;User=sa;Password=123456aA*;");
         }
         public DbSet<HotelInfo> HotelInfos{ get; set; }
         public DbSet<Location> Locations{ get; set; }
