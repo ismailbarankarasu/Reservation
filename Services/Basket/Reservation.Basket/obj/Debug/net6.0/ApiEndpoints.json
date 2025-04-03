@@ -1,0 +1,59 @@
+[
+  {
+    "ContainingType": "Reservation.Basket.Controllers.BasketsController",
+    "Method": "GetMyBasketDetail",
+    "RelativePath": "api/Baskets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Reservation.Basket.Controllers.BasketsController",
+    "Method": "SaveMyBasket",
+    "RelativePath": "api/Baskets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basketTotalDto",
+        "Type": "Reservation.Basket.DTOs.BasketTotalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Reservation.Basket.Controllers.BasketsController",
+    "Method": "DeleteMyBasket",
+    "RelativePath": "api/Baskets",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Reservation.Basket.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Reservation.Basket.WeatherForecast, Reservation.Basket, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
