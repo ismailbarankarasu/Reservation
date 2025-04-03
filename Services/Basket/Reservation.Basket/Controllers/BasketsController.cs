@@ -30,7 +30,7 @@ namespace Reservation.Basket.Controllers
         {
             basketTotalDto.UserId = _loginService.GetUserId;
             await _basketService.SaveBasket(basketTotalDto);
-            return Ok();
+            return Ok("kayıt edildi");
         }
         [HttpDelete]
         public async Task<IActionResult> DeleteMyBasket()
